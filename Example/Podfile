@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Zoo.Performance_Example' do
+  pod 'Zoo.Performance', :path => '../'
+
+  target 'Zoo.Performance_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
