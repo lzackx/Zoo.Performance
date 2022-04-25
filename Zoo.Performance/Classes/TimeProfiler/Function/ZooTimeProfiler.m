@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooTimeProfiler.h"
-#import "ZooTimeProfilerCore.h"
+#import <Zoo/ZooTimeProfilerCore.h>
 #include <objc/message.h>
 #include <sys/sysctl.h>
 #import "ZooDefine.h"
