@@ -1,6 +1,5 @@
 # Zoo.Performance
 
-[![CI Status](https://img.shields.io/travis/lzackx/Zoo.Performance.svg?style=flat)](https://travis-ci.org/lzackx/Zoo.Performance)
 [![Version](https://img.shields.io/cocoapods/v/Zoo.Performance.svg?style=flat)](https://cocoapods.org/pods/Zoo.Performance)
 [![License](https://img.shields.io/cocoapods/l/Zoo.Performance.svg?style=flat)](https://cocoapods.org/pods/Zoo.Performance)
 [![Platform](https://img.shields.io/cocoapods/p/Zoo.Performance.svg?style=flat)](https://cocoapods.org/pods/Zoo.Performance)
