@@ -7,12 +7,39 @@
 //
 
 #import "ZOOAppDelegate.h"
+#import <Zoo/ZooManager.h>
+#import <ZooPerformance/ZooManager+Performance.h>
+#import <ZooPerformance/ZooCacheManager+Performance.h>
+#import <ZooPerformance/ZooTimeProfiler.h>
 
 @implementation ZOOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [ZooTimeProfiler startRecord];
+    
+    [ZooManager shareInstance].startClass = @"ZOOAppDelegate";
+    [ZooManager shareInstance].bigImageDetectionSize = (1024 * 1);
+    [ZooManager shareInstance].anrBlock = ^(NSDictionary *info) {
+        NSLog(@"ANR: %@", info);
+    };
+    
+    [ZooManager shareInstance].performanceBlock = ^(NSDictionary *info) {
+        NSLog(@"Performance: %@", info);
+    };
+    
+    [ZooManager shareInstance].vcProfilerBlackList = @[
+    
+    ];
+    
+    [[ZooManager shareInstance] addPerformancePlugins];
+    [[ZooManager shareInstance] setupPerformancePlugins];
+    [[ZooManager shareInstance] install];
+    
+    [ZooTimeProfiler stopRecord];
+    
     return YES;
 }
 
