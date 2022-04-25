@@ -10,7 +10,6 @@
 #import "ZooWeakNetworkDetailView.h"
 #import "ZooDefine.h"
 #import "ZooToastUtil.h"
-#import "ZooCacheManager.h"
 #import "ZooWeakNetworkWindow.h"
 
 @interface ZooWeakNetworkViewController()<ZooWeakNetworkWindowDelegate>
@@ -43,11 +42,6 @@
 
 - (void)switchAction:(id)sender{
     UISwitch *switchButton = (UISwitch*)sender;
-    if([[ZooCacheManager sharedInstance] healthStart]){
-        switchButton.on = NO;
-        [ZooToastUtil showToastBlack:ZooLocalizedString(@"App当前处于健康体检状态，无法进行此操作") inView:self.view];
-        return ;
-    }
     [ZooWeakNetworkManager shareInstance].shouldWeak = [switchButton isOn];
     
     [[ZooWeakNetworkManager shareInstance] canInterceptNetFlow:[switchButton isOn]];

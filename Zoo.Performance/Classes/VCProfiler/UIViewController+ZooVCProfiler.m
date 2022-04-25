@@ -116,10 +116,8 @@ static void zoo_vc_profiler_viewDidDisappear(UIViewController *kvo_self, SEL _se
 @implementation UIViewController (ZooVCProfiler)
 
 + (void)load {
-    if ([[ZooCacheManager sharedInstance] healthStart]){
-        [self zoo_swizzleInstanceMethodWithOriginSel:@selector(initWithNibName:bundle:) swizzledSel:@selector(zoo_initWithNibName:bundle:)];
-        [self zoo_swizzleInstanceMethodWithOriginSel:@selector(initWithCoder:) swizzledSel:@selector(zoo_initWithCoder:)];
-    }
+    [self zoo_swizzleInstanceMethodWithOriginSel:@selector(initWithNibName:bundle:) swizzledSel:@selector(zoo_initWithNibName:bundle:)];
+    [self zoo_swizzleInstanceMethodWithOriginSel:@selector(initWithCoder:) swizzledSel:@selector(zoo_initWithCoder:)];
 }
 
 - (instancetype)zoo_initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
