@@ -6,10 +6,10 @@
 
 #import "ZooWeakNetworkViewController.h"
 #import "ZooWeakNetworkManager.h"
-#import "ZooCellSwitch.h"
+#import <Zoo/ZooCellSwitch.h>
 #import "ZooWeakNetworkDetailView.h"
-#import "ZooDefine.h"
-#import "ZooToastUtil.h"
+#import <Zoo/ZooDefine.h>
+#import <Zoo/ZooToastUtil.h>
 #import "ZooWeakNetworkWindow.h"
 
 @interface ZooWeakNetworkViewController()<ZooWeakNetworkWindowDelegate>

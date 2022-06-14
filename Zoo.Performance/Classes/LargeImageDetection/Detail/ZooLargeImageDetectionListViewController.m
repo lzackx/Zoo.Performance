@@ -7,7 +7,7 @@
 #import "ZooLargeImageDetectionListViewController.h"
 #import "ZooLargeImageDetectionManager.h"
 #import "ZooImageDetectionCell.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 @interface ZooLargeImageDetectionListViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;

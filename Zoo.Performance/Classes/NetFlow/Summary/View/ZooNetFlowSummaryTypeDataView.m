@@ -5,11 +5,11 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooNetFlowSummaryTypeDataView.h"
-#import "UIView+Zoo.h"
-#import "ZooPieChart.h"
+#import <Zoo/UIView+Zoo.h>
+#import <Zoo/ZooPieChart.h>
 #import "ZooNetFlowDataSource.h"
-#import "Zooi18NUtil.h"
-#import "ZooDefine.h"
+#import <Zoo/Zooi18NUtil.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooNetFlowSummaryTypeDataView()
 @property (nonatomic, strong) NSArray<ZooChartDataItem *> *chartItems;

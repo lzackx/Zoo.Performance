@@ -6,7 +6,7 @@
 
 #import "ZooANRPlugin.h"
 #import "ZooANRViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooANRPlugin
 

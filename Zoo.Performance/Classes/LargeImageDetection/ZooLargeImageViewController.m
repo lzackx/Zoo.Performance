@@ -5,14 +5,14 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooLargeImageViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooCellButton.h"
-#import "ZooCacheManager.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooCellButton.h>
+#import <Zoo/ZooCacheManager.h>
 #import "ZooNetworkInterceptor.h"
 #import "ZooLargeImageDetectionManager.h"
 #import "ZooLargeImageDetectionListViewController.h"
-#import "ZooCellInput.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooCellInput.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooLargeImageViewController() <ZooSwitchViewDelegate, ZooCellButtonDelegate>
 

@@ -6,8 +6,8 @@
 
 #import "ZooOscillogramWindow.h"
 #import "ZooOscillogramViewController.h"
-#import "UIColor+Zoo.h"
-#import "ZooDefine.h"
+#import <Zoo/UIColor+Zoo.h>
+#import <Zoo/ZooDefine.h>
 #import "ZooOscillogramWindowManager.h"
 
 @interface ZooOscillogramWindow()

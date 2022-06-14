@@ -7,10 +7,10 @@
 #import "ZooCPUViewController.h"
 #import "ZooCacheManager+Performance.h"
 #import "ZooCPUOscillogramWindow.h"
-#import "Zooi18NUtil.h"
+#import <Zoo/Zooi18NUtil.h>
 #import "ZooCPUOscillogramViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooCPUViewController ()<ZooSwitchViewDelegate, ZooOscillogramWindowDelegate>
 

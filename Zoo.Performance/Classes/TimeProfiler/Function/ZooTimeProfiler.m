@@ -8,7 +8,7 @@
 #import <Zoo/ZooTimeProfilerCore.h>
 #include <objc/message.h>
 #include <sys/sysctl.h>
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 static NSTimeInterval startTime;
 static NSTimeInterval stopTime;

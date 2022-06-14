@@ -8,7 +8,7 @@
 #import "ZooWeakNetworkManager.h"
 #import "ZooWeakNetworkLevelView.h"
 #import "ZooWeakNetworkInputView.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 @interface ZooWeakNetworkDetailView()<ZooWeakNetworkLevelViewDelegate>
 

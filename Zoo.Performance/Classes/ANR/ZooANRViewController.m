@@ -5,14 +5,14 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooANRViewController.h"
-#import "ZooCellSwitch.h"
-#import "UIView+Zoo.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/UIView+Zoo.h>
 #import "ZooANRManager.h"
-#import "ZooCellButton.h"
+#import <Zoo/ZooCellButton.h>
 #import "ZooANRListViewController.h"
-#import "Zooi18NUtil.h"
+#import <Zoo/Zooi18NUtil.h>
 #import "ZooANRTool.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 @interface ZooANRViewController () <ZooSwitchViewDelegate, ZooCellButtonDelegate>
 

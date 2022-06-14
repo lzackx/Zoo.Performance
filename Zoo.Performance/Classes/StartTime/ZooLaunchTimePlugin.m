@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooLaunchTimePlugin.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 #import "ZooLaunchTimeViewController.h"
 
 @implementation ZooLaunchTimePlugin

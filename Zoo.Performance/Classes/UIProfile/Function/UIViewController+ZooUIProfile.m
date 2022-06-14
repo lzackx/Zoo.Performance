@@ -4,10 +4,10 @@
 //
 //  Created by lZackx on 2022/4/14.
 
-#import "UIViewController+Zoo.h"
+#import <Zoo/UIViewController+Zoo.h>
 #import "ZooUIProfileManager.h"
-#import "NSObject+Zoo.h"
-#import "ZooDefine.h"
+#import <Zoo/NSObject+Zoo.h>
+#import <Zoo/ZooDefine.h>
 #import <objc/runtime.h>
 #import "ZooUIProfileWindow.h"
 

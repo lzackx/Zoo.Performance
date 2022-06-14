@@ -7,7 +7,7 @@
 #if __has_include(<SDWebImage/UIImageView+WebCache.h>)
 #import "UIImageView+ZooSDImage.h"
 //#import <SDWebImage/UIImageView+WebCache.h>
-#import "NSObject+Zoo.h"
+#import <Zoo/NSObject+Zoo.h>
 #import "ZooLargeImageDetectionManager.h"
 #import <objc/runtime.h>
 

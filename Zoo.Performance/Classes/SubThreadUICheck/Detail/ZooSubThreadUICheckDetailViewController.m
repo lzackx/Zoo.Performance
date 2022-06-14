@@ -5,8 +5,8 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooSubThreadUICheckDetailViewController.h"
-#import "Zooi18NUtil.h"
-#import "ZooDefine.h"
+#import <Zoo/Zooi18NUtil.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooSubThreadUICheckDetailViewController ()
 

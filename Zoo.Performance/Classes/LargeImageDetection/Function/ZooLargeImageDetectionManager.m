@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooLargeImageDetectionManager.h"
-#import "ZooCacheManager.h"
+#import <Zoo/ZooCacheManager.h>
 #import "ZooResponseImageModel.h"
 #import "ZooNetworkInterceptor.h"
 #import "ZooUrlUtil.h"

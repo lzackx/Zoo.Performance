@@ -11,7 +11,7 @@
 #import "ZooNetFlowDataSource.h"
 #import "ZooNetFlowHttpModel.h"
 #import "ZooResponseImageModel.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import<CommonCrypto/CommonDigest.h>
 static ZooNetworkInterceptor *instance = nil;
 

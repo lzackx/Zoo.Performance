@@ -6,7 +6,7 @@
 
 #import "ZooSubThreadUICheckPlugin.h"
 #import "ZooSubThreadUICheckViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooSubThreadUICheckPlugin
 

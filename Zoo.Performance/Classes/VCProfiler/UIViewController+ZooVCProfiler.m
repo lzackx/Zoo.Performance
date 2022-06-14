@@ -5,8 +5,8 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "UIViewController+ZooVCProfiler.h"
-#import "NSObject+Zoo.h"
-#import "ZooDefine.h"
+#import <Zoo/NSObject+Zoo.h>
+#import <Zoo/ZooDefine.h>
 #import <objc/runtime.h>
 #import "ZooCacheManager+Performance.h"
 #import "ZooManager+Performance.h"

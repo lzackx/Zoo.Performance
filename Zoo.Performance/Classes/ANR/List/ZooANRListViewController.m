@@ -10,7 +10,7 @@
 #import "ZooANRDetailViewController.h"
 #import <Zoo/ZooSandboxModel.h>
 #import "ZooANRTool.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 @interface ZooANRListViewController ()<UITableViewDelegate,UITableViewDataSource>
 

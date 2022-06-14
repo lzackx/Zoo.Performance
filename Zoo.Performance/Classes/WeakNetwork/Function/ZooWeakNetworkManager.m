@@ -7,7 +7,7 @@
 #import "ZooWeakNetworkManager.h"
 #import "ZooNetworkInterceptor.h"
 #import "ZooWeakNetworkHandle.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import "ZooWeakNetworkWindow.h"
 #import "ZooNetFlowManager.h"
 #import "ZooUrlUtil.h"

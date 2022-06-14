@@ -6,7 +6,7 @@
 
 #import "ZooImageDetectionCell.h"
 #import "ZooResponseImageModel.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 @interface ZooImageDetectionCell()
 @property (nonatomic, strong) UIImageView *previewImageView;

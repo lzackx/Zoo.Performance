@@ -9,7 +9,7 @@
 #import "ZooNetFlowListCell.h"
 #import "ZooNetFlowHttpModel.h"
 #import "ZooNetFlowDetailViewController.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import <Zoo/ZooStringSearchView.h>
 
 @interface ZooNetFlowListViewController ()<UITableViewDelegate,UITableViewDataSource,ZooStringSearchViewDelegate>

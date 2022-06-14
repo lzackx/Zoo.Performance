@@ -6,9 +6,9 @@
 
 #import "ZooMemoryOscillogramViewController.h"
 #import "ZooOscillogramView.h"
-#import "UIView+Zoo.h"
+#import <Zoo/UIView+Zoo.h>
 #import "ZooMemoryUtil.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import "ZooCacheManager+Performance.h"
 #import "ZooMemoryOscillogramWindow.h"
 

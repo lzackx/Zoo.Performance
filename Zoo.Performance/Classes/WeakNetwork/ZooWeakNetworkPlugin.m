@@ -6,7 +6,7 @@
 
 #import "ZooWeakNetworkPlugin.h"
 #import "ZooWeakNetworkViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooWeakNetworkPlugin
 

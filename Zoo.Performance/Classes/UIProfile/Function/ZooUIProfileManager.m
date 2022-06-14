@@ -7,7 +7,7 @@
 #import "ZooUIProfileManager.h"
 #import "UIViewController+ZooUIProfile.h"
 #import "ZooUIProfileWindow.h"
-#import "UIViewController+Zoo.h"
+#import <Zoo/UIViewController+Zoo.h>
 
 @interface ZooUIProfileManager ()
 

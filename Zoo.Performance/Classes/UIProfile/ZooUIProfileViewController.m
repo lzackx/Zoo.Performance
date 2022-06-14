@@ -5,10 +5,10 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooUIProfileViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooDefine.h>
 #import "ZooUIProfileManager.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @interface ZooUIProfileViewController () <ZooSwitchViewDelegate>
 

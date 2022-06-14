@@ -5,8 +5,8 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooUIProfileWindow.h"
-#import "UIView+Zoo.h"
-#import "ZooDefine.h"
+#import <Zoo/UIView+Zoo.h>
+#import <Zoo/ZooDefine.h>
 
 #define kWindowWidth        220
 #define kExpandHeight       250

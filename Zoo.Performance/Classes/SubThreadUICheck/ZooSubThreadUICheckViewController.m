@@ -5,12 +5,12 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooSubThreadUICheckViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooCellButton.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooCellButton.h>
 #import "ZooCacheManager+Performance.h"
 #import "ZooSubThreadUICheckListViewController.h"
-#import "Zooi18NUtil.h"
-#import "ZooDefine.h"
+#import <Zoo/Zooi18NUtil.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooSubThreadUICheckViewController ()<ZooSwitchViewDelegate,ZooCellButtonDelegate>
 

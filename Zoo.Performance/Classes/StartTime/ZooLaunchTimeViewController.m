@@ -5,11 +5,11 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooLaunchTimeViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooCellButton.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooCellButton.h>
+#import <Zoo/ZooDefine.h>
 #import "ZooCacheManager+Performance.h"
-#import "NSObject+Zoo.h"
+#import <Zoo/NSObject+Zoo.h>
 #import "ZooManager+Performance.h"
 #import <objc/runtime.h>
 #import "ZooTimeProfiler.h"

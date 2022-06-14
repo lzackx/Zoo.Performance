@@ -6,8 +6,8 @@
 
 #import "ZooPingThread.h"
 #import <UIKit/UIKit.h>
-#import "ZooUtil.h"
-#import "ZooBacktraceLogger.h"
+#import <Zoo/ZooUtil.h>
+#import <Zoo/ZooBacktraceLogger.h>
 
 @interface ZooPingThread()
 

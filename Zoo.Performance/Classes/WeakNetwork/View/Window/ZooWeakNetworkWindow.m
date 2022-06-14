@@ -5,9 +5,9 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooWeakNetworkWindow.h"
-#import "ZooDefine.h"
-#import "UIView+Zoo.h"
-#import "ZooStatusBarViewController.h"
+#import <Zoo/ZooDefine.h>
+#import <Zoo/UIView+Zoo.h>
+#import <Zoo/ZooStatusBarViewController.h>
 #import "ZooWeakNetworkManager.h"
 #import "ZooNetworkInterceptor.h"
 

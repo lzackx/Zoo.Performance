@@ -6,7 +6,7 @@
 
 #import "ZooUIProfilePlugin.h"
 #import "ZooUIProfileViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooUIProfilePlugin
 

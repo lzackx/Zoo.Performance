@@ -6,7 +6,7 @@
 
 #import "ZooLargeImagePlugin.h"
 #import "ZooLargeImageViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooLargeImagePlugin
 - (void)pluginDidLoad {

@@ -6,7 +6,7 @@
 
 #import "ZooFPSPlugin.h"
 #import "ZooFPSViewController.h"
-#import "ZooHomeWindow.h"
+#import <Zoo/ZooHomeWindow.h>
 
 @implementation ZooFPSPlugin
 

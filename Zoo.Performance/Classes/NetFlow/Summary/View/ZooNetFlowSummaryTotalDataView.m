@@ -7,8 +7,8 @@
 #import "ZooNetFlowSummaryTotalDataView.h"
 #import "ZooNetFlowDataSource.h"
 #import "ZooNetFlowManager.h"
-#import "ZooUtil.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooUtil.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooNetFlowSummaryTotalDataItemView : UIView
 

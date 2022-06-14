@@ -5,12 +5,12 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooNetFlowDetailViewController.h"
-#import "UIView+Zoo.h"
+#import <Zoo/UIView+Zoo.h>
 #import "ZooNetFlowDetailCell.h"
-#import "UIColor+Zoo.h"
+#import <Zoo/UIColor+Zoo.h>
 #import "ZooUrlUtil.h"
-#import "ZooUtil.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooUtil.h>
+#import <Zoo/ZooDefine.h>
 #import "ZooNetFlowDetailSegment.h"
 
 typedef NS_ENUM(NSUInteger, NetFlowSelectState) {

@@ -7,7 +7,7 @@
 #import "ZooCPUOscillogramViewController.h"
 #import "ZooOscillogramView.h"
 #import "ZooCPUUtil.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import "ZooCacheManager+Performance.h"
 #import "ZooCPUOscillogramWindow.h"
 

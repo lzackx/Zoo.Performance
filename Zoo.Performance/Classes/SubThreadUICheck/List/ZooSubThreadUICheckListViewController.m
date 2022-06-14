@@ -5,11 +5,11 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooSubThreadUICheckListViewController.h"
-#import "UIView+Zoo.h"
+#import <Zoo/UIView+Zoo.h>
 #import "ZooSubThreadUICheckListCell.h"
 #import "ZooSubThreadUICheckManager.h"
 #import "ZooSubThreadUICheckDetailViewController.h"
-#import "Zooi18NUtil.h"
+#import <Zoo/Zooi18NUtil.h>
 
 @interface ZooSubThreadUICheckListViewController ()<UITableViewDelegate,UITableViewDataSource>
 

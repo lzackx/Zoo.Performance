@@ -7,7 +7,7 @@
 #import "ZooNetFlowOscillogramViewController.h"
 #import "ZooOscillogramView.h"
 #import "ZooNetFlowDataSource.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 #import "ZooCacheManager+Performance.h"
 #import "ZooNetFlowOscillogramWindow.h"
 

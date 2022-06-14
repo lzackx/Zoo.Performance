@@ -7,9 +7,9 @@
 #import "ZooNetFlowManager.h"
 #import "ZooNSURLProtocol.h"
 #import "ZooNetFlowDataSource.h"
-#import "NSObject+Zoo.h"
+#import <Zoo/NSObject+Zoo.h>
 #import "ZooNetworkInterceptor.h"
-#import "UIViewController+Zoo.h"
+#import <Zoo/UIViewController+Zoo.h>
 
 
 @interface ZooNetFlowManager() <ZooNetworkInterceptorDelegate, NSStreamDelegate>

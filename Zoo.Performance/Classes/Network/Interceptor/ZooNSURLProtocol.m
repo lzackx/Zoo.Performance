@@ -10,10 +10,10 @@
 #import "ZooNetFlowManager.h"
 #import "ZooURLSessionDemux.h"
 #import "ZooNetworkInterceptor.h"
-#import "ZooManager.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooManager.h>
+#import <Zoo/ZooDefine.h>
 #import "ZooUrlUtil.h"
-#import "UIViewController+Zoo.h"
+#import <Zoo/UIViewController+Zoo.h>
 
 static NSString * const kZooProtocolKey = @"zoo_protocol_key";
 

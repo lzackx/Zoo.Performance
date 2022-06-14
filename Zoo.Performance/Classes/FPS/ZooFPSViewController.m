@@ -8,8 +8,8 @@
 #import "ZooCacheManager+Performance.h"
 #import "ZooFPSOscillogramWindow.h"
 #import "ZooFPSOscillogramViewController.h"
-#import "ZooCellSwitch.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooCellSwitch.h>
+#import <Zoo/ZooDefine.h>
 
 @interface ZooFPSViewController ()<ZooSwitchViewDelegate, ZooOscillogramWindowDelegate>
 

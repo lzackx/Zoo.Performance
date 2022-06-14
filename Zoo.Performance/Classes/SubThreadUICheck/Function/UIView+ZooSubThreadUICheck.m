@@ -4,12 +4,12 @@
 //
 //  Created by lZackx on 2022/4/14.
 
-#import "UIView+Zoo.h"
-#import "NSObject+Zoo.h"
+#import <Zoo/UIView+Zoo.h>
+#import <Zoo/NSObject+Zoo.h>
 #import "ZooCacheManager+Performance.h"
 #import "ZooSubThreadUICheckManager.h"
-#import "ZooUtil.h"
-#import "ZooBacktraceLogger.h"
+#import <Zoo/ZooUtil.h>
+#import <Zoo/ZooBacktraceLogger.h>
 
 @implementation UIView (ZooSubThreadUICheck)
 

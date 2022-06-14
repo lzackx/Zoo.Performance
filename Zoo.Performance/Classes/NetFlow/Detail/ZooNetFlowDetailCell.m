@@ -5,8 +5,8 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooNetFlowDetailCell.h"
-#import "ZooDefine.h"
-#import "UIColor+Zoo.h"
+#import <Zoo/ZooDefine.h>
+#import <Zoo/UIColor+Zoo.h>
 
 @interface ZooNetFlowDetailCell()
 

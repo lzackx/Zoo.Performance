@@ -6,7 +6,7 @@
 
 #import "WKWebView+Zoo.h"
 #import <objc/runtime.h>
-#import "NSObject+Zoo.h"
+#import <Zoo/NSObject+Zoo.h>
 
 
 @implementation WKWebView (Zoo)

@@ -6,7 +6,7 @@
 
 #import "ZooOscillogramViewController.h"
 #import "ZooOscillogramWindowManager.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 
 @interface ZooOscillogramViewController ()

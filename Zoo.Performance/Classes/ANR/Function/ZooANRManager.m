@@ -8,8 +8,8 @@
 #import "ZooCacheManager+Performance.h"
 #import "ZooANRTracker.h"
 #import "ZooMemoryUtil.h"
-#import "ZooAppInfoUtil.h"
-#import "Zooi18NUtil.h"
+#import <Zoo/ZooAppInfoUtil.h>
+#import <Zoo/Zooi18NUtil.h>
 #import "ZooANRTool.h"
 
 

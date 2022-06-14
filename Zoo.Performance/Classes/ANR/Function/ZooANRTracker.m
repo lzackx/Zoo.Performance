@@ -5,7 +5,7 @@
 //  Created by lZackx on 2022/4/14.
 
 #import "ZooANRTracker.h"
-#import "sys/utsname.h"
+#import <sys/utsname.h>
 
 /**
  *  主线程卡顿监控看门狗类

@@ -9,7 +9,7 @@
 #import "ZooCPUOscillogramWindow.h"
 #import "ZooMemoryOscillogramWindow.h"
 #import "ZooNetFlowOscillogramWindow.h"
-#import "ZooDefine.h"
+#import <Zoo/ZooDefine.h>
 
 @interface ZooOscillogramWindowManager()
 
